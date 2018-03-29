@@ -2,18 +2,14 @@ h1 {
     color: darkgreen;
 }
 
-
 h2 {
     background-color: aqua;
     color: crimson;
+    margin: 1px;
 }
-
 
 p {
-    color: darkblue;
-}
-
-#accordion {
-    background-color: darkgray;
+    color: #0000ff;
+    transition: opacity 3s;
 }
 
