@@ -21,7 +21,7 @@ window.onload = function () {
             for (var child_n in child_e) {
                 if (child_e[child_n].localName == 'div' && child_e[child_n].className == 'vewparag') {
                     var bb = child_e[child_n];
-                    child_e[child_n].style.hidden = !child_e[child_n].style.hidden;
+                    child_e[child_n].hidden = !child_e[child_n].hidden;
                 }
             }
 
