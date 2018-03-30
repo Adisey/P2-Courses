@@ -9,7 +9,18 @@ h2 {
 }
 
 p {
-    color: #0000ff;
-    transition: opacity 3s;
+    color: #000099;
+
+}
+
+.animated {
+    /*transition-property: background-color;*/
+    transition-property: hidden;
+    transition-duration: 3s;
+}
+
+#color {
+    transition-property: background-color;
+    transition-duration: 5s;
 }
 
