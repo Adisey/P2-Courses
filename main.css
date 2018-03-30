@@ -14,7 +14,6 @@ p {
 }
 
 .animated {
-    /*transition-property: background-color;*/
     transition-property: hidden;
     transition-duration: 3s;
 }
