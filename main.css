@@ -13,17 +13,26 @@ p {
 
 }
 
-.animated {
+
+#h2_1,#h2_2, #h2_3 {
+    transition-property: background-color;
+    transition-duration: 3s;
+
+}
+#vewparag_1, #vewparag_2, #vewparag_3 {
     transition-property: hidden;
     transition-duration: 3s;
+    transition-timing-function: linear;
 }
 
-#color {
+#color_but {
     transition-property: background-color;
     transition-duration: 5s;
 }
 
 
-
-
+#but_progr {
+    transition-property: background-color;
+    transition-duration: 3s;
+}
 
