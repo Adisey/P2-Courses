@@ -23,6 +23,7 @@ window.onload = function () {
 //                    child_e[child_n].offsetHeight = child_e[child_n].offsetHeight /2;
                     child_e[child_n].hidden = ! child_e[child_n].hidden ;
                     console.log('--1--');
+
 //                    child_e[child_n].classList.add('animate');
 
                 }
